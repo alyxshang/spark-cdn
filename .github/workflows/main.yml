@@ -1,0 +1,22 @@
+name: CDN CI
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Deno
+        uses: denolib/setup-deno@master
+        with:
+          deno-version: 1.43.3
+        
+      - name: "Copy assets to one folder."
+        run: bash build.sh
+        
+      - name: "Deploy"
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          folder: cdn
