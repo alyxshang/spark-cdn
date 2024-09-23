@@ -70,6 +70,7 @@ The following fonts are available:
 - `NeueMontrealBold`
 - `NeueMontrealLight`
 - `NeueMontrealMedium`
+- `Mogena`
 
 To use these fonts in your own projects specify the font you would like to use like this in your stylesheets:
 
@@ -78,6 +79,23 @@ font-family: "name-of-font";
 ```
 
 `name-of-font` specifies any of the names from the list above. These fonts should work across multiple browsers since this "CDN" contains the fonts in the WOFF, WOFF2, TTF, and OTF formats, respectively.
+
+## JAVASCRIPT :gear:
+
+This CDN also contains some Javascript code to build different types of navigation drawers. To include a link to this file in the code for your own website, include the following line of HTML in your HTML code:
+
+```HTML
+<script async src="https://alyxshang.boo/spark-cdn/css/navigation.js" type="text/javascript"></script>
+```
+
+The functions this script includes are as follows:
+
+- `slideOutHorizontalOpenNav(elementId: string)`: Slides out a navigation drawer element with the ID `elementId` horizontally.
+- `slideOutHorizontalCloseNav(elementId: string)`: Closes a navigation drawer element with the ID `elementId` horizontally.
+- `slideOutVerticalOpenNav(elementId: string)`: Slides out a navigation drawer element with the ID `elementId` vertically.
+- `slideOutVerticalCloseNav(elementId: string)`: Closes a navigation drawer element with the ID `elementId` vertically.
+- `slideOutFromCornerOpenNav(elementId: string)`: Slides out a navigation drawer element with the ID `elementId` vertically and horizontally.
+- `slideOutFromCornerCloseNav(elementId: string)`: Closes a navigation drawer element with the ID `elementId` vertically and horizontally.
 
 ## IMAGES :camera:
 
