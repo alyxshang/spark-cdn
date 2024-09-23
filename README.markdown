@@ -85,7 +85,7 @@ font-family: "name-of-font";
 This CDN also contains some Javascript code to build different types of navigation drawers. To include a link to this file in the code for your own website, include the following line of HTML in your HTML code:
 
 ```HTML
-<script async src="https://alyxshang.boo/spark-cdn/css/navigation.js" type="text/javascript"></script>
+<script async src="https://alyxshang.boo/spark-cdn/javascript/navigation.js" type="text/javascript"></script>
 ```
 
 The functions this script includes are as follows:
