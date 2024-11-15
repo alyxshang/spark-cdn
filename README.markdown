@@ -71,6 +71,7 @@ The following fonts are available:
 - `NeueMontrealLight`
 - `NeueMontrealMedium`
 - `Mogena`
+- `GICN`
 
 To use these fonts in your own projects specify the font you would like to use like this in your stylesheets:
 

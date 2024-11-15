@@ -4,6 +4,10 @@
     src: url('https://alyxshang.boo/spark-cdn/fonts/otf/Mogena.otf') format('opentype');
 }
 @font-face {
+    font-family: 'GICN';
+    src: url('https://alyxshang.boo/spark-cdn/fonts/otf/GICN.otf') format('opentype');
+}
+@font-face {
     font-family: 'NeueMontrealBold';
     src: url('https://alyxshang.boo/spark-cdn/fonts/otf/NeueMontrealBold.otf') format('opentype');
 }
@@ -217,6 +221,10 @@
 @font-face {
     font-family: 'Mogena';
     src: url('https://alyxshang.boo/spark-cdn/fonts/ttf/Mogena.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GICN';
+    src: url('https://alyxshang.boo/spark-cdn/fonts/ttf/GICN.ttf') format('truetype');
 }
 @font-face{
     font-family: 'NeueMontrealBold';
@@ -433,6 +441,10 @@
     font-family: 'Mogena';
     src: url('https://alyxshang.boo/spark-cdn/fonts/woff/Mogena.woff') format('woff');
 }
+@font-face {
+    font-family: 'GICN';
+    src: url('https://alyxshang.boo/spark-cdn/fonts/woff/GICN.woff') format('woff');
+}
 @font-face{
     font-family: 'NeueMontrealBold';
     src: url('https://alyxshang.boo/spark-cdn/fonts/woff/NeueMontrealBold.woff') format('woff');
@@ -647,6 +659,10 @@
 @font-face {
     font-family: 'Mogena';
     src: url('https://alyxshang.boo/spark-cdn/fonts/woff/Mogena.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'GICN';
+    src: url('https://alyxshang.boo/spark-cdn/fonts/woff2/GICN.woff2') format('woff2');
 }
 @font-face{
     font-family: 'NeueMontrealBold';
