@@ -1,4 +1,4 @@
-# @MeowPerms => "ReadAccess"
+# @MeowPerms => "SysCall"
 
 sayHello(){
   echo "Hello World!"
