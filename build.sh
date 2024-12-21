@@ -9,7 +9,6 @@ buildCDN(){
 }
 
 main(){
-	buildJS
 	buildCDN
 }
 
