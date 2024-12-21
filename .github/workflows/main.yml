@@ -14,9 +14,12 @@ jobs:
         
       - name: "Copy assets to one folder."
         run: bash build.sh
-        
-      - name: "Deploy"
-        uses: JamesIves/github-pages-deploy-action@v4.2.5
+
+      - name: "Deploy."
+        uses: SamKirkland/FTP-Deploy-Action@3.2.0
         with:
-          branch: gh-pages
-          folder: cdn
+          server: ${{ secrets.FTP_IP }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PWD }}
+          server-dir: html/cdn.alyxshang.boo/cdn
+          local-dir: ./cdn
