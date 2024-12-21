@@ -17,7 +17,7 @@ jobs:
         with:
           deno-version: 1.43.3
         
-      - name: "Copy assets to one folder."
+      - name: "Compile all assets into one folder."
         run: bash build.sh
 
       - name: "Push to the \"deploy\" branch."
