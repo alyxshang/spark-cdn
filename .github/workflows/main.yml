@@ -22,4 +22,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PWD }}
           server-dir: html/cdn.alyxshang.boo/cdn
-          local-dir: ./cdn
+          local-dir: ./cdn/
