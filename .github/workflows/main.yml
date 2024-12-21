@@ -15,13 +15,8 @@ jobs:
       - name: "Copy assets to one folder."
         run: bash build.sh
 
-      - name: "Deploy."
-        uses: garygrossgarten/github-action-scp@release
+      - name: "Push to the \"deploy\" branch."
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
-         local: cdn
-         remote: /var/www/html/cdn.alyxshang.boo
-         host: ${{ secrets.FTP_IP }}
-         username: ${{ secrets.FTP_USERNAME }}
-         password: ${{ secrets.FT_PWD }}
-         atomicPut: true
-         recrusive: true
+          branch: deploy
+          folder: cdn
