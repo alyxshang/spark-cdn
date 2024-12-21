@@ -15,11 +15,11 @@ jobs:
       - name: "Copy assets to one folder."
         run: bash build.sh
 
-      - name: "Deploy."
-        uses: SamKirkland/FTP-Deploy-Action@v4.0.0
+      - name: Copy folder content recursively to remote
+        uses: garygrossgarten/github-action-scp@release
         with:
-          server: ${{ secrets.FTP_IP }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PWD }}
-          server-dir: ./html/cdn.alyxshang.boo/
-          local-dir: ./cdn/
+         local: cdn
+         remote: /var/www/html/cdn.alyxshang.boo
+         host: ${{ secrets.FTP_IP }}
+         username: ${{ secrets.FTP_USERNAME }}
+         password: ${{ secrets.FT_PWD }}
