@@ -12,13 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Setup Deno
-        uses: denolib/setup-deno@master
-        with:
-          deno-version: 1.43.3
-        
-      - name: "Compile all assets into one folder."
-        run: bash build.sh
+      
+      - name: "Install SSHPass."
+        run: sudo apt update && sudo apt install sshpass -y
 
       - name: "Upload to server."
         run: |
