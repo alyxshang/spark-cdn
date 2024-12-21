@@ -27,4 +27,4 @@ jobs:
           folder: cdn
 
       - name: "Upload to server."
-        run: sshpass -p ${{ env.PWD }} ssh ${{ env.USERNAME }}@${{ env.SERVER_IP }} "cd ${{ env.TARGET_DIR }};git clone https://github.com/alyxshang/spark-cdn -b deploy"
+        run: sshpass -p ${{ env.PWD }} ssh -o "StrictHostKeyChecking=no" ${{ env.USERNAME }}@${{ env.SERVER_IP }} "cd ${{ env.TARGET_DIR }};git clone https://github.com/alyxshang/spark-cdn -b deploy"
