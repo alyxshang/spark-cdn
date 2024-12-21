@@ -23,3 +23,5 @@ jobs:
          host: ${{ secrets.FTP_IP }}
          username: ${{ secrets.FTP_USERNAME }}
          password: ${{ secrets.FT_PWD }}
+         atomicPut: true
+         recrusive: true
