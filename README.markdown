@@ -13,7 +13,7 @@ This repository contains some static assets that I need for various projects. To
 You can include any of the fonts from this "CDN" by adding this line to your HTML code:
 
 ```HTML
-<link rel="stylesheet" href="https://alyxshang.boo/spark-cdn/css/sparkfonts.css" type="text/css"/>
+<link rel="stylesheet" href="https://cdn.alyxshang.boo/css/sparkfonts.css" type="text/css"/>
 ```
 
 Warning: The fonts used I collected over a long period of time. If you are the creator of any of the fonts and you object to me publishing them in this way, please open an issue and let me know.
