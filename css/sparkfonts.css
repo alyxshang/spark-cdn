@@ -1,5 +1,9 @@
 /* OTF FONTS START */
 @font-face {
+    font-family: 'FluroBold';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/FluroBold.otf') format('opentype');
+}
+@font-face {
     font-family: 'Mogena';
     src: url('https://cdn.alyxshang.boo/fonts/otf/Mogena.otf') format('opentype');
 }
@@ -218,6 +222,10 @@
 /* OTF FONTS END */
 
 /* TTF FONTS START */
+@font-face {
+    font-family: 'FluroBold';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/FluroBold.ttf') format('truetype');
+}
 @font-face {
     font-family: 'Mogena';
     src: url('https://cdn.alyxshang.boo/fonts/ttf/Mogena.ttf') format('truetype');
@@ -438,6 +446,10 @@
 
 /* WOFF FONTS START */
 @font-face {
+    font-family: 'FluroBold';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/FluroBold.woff') format('woff');
+}
+@font-face {
     font-family: 'Mogena';
     src: url('https://cdn.alyxshang.boo/fonts/woff/Mogena.woff') format('woff');
 }
@@ -656,6 +668,10 @@
 /* WOFF FONTS END */
 
 /* WOFF2 FONTS START */
+@font-face {
+    font-family: 'FluroBold';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/FluroBold.woff2') format('woff2');
+}
 @font-face {
     font-family: 'Mogena';
     src: url('https://cdn.alyxshang.boo/fonts/woff2/Mogena.woff2') format('woff2');
