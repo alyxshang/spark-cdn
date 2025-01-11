@@ -72,6 +72,7 @@ The following fonts are available:
 - `NeueMontrealMedium`
 - `Mogena`
 - `GICN`
+- `FluroBold`
 
 To use these fonts in your own projects specify the font you would like to use like this in your stylesheets:
 
