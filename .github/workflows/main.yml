@@ -18,7 +18,7 @@ jobs:
       - name: "Verify the build."
         run: tree
 
-      - name: "Deploy the built site."
+      - name: "Deploy the built CDN."
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           branch: gh-pages
