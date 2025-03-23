@@ -1,0 +1,907 @@
+/* OTF FONTS START */
+@font-face {
+    font-family: 'Italiana';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Italiana.otf') format('opentype');
+}
+@font-face {
+    font-family: 'FluroBold';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/FluroBold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Mogena';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Mogena.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GICN';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/GICN.otf') format('opentype');
+}
+@font-face {
+    font-family: 'NeueMontrealBold';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/NeueMontrealBold.otf') format('opentype');
+}
+@font-face{
+    font-family: 'NeueMontrealLight';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/NeueMontrealLight.otf') format('opentype');
+}
+@font-face{
+    font-family: 'NeueMontrealMedium';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/NeueMontrealMedium.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Edda';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Edda.otf') format('opentype');
+}
+@font-face {
+    font-family: 'KingthingsExeter';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/KingthingsExeter.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Pragmatica';
+	src: url('https://cdn.alyxshang.boo/fonts/otf/Pragmatica.otf') format('opentype');
+}
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/BebasNeue.otf') format('opentype');
+}
+@font-face {
+    font-family: 'atriskyouth';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/atriskyouth.otf') format('opentype');
+}
+@font-face {
+    font-family: 'benegraphic';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/benegraphic.otf') format('opentype');
+}
+@font-face {
+    font-family: 'easy';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/easy.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Garota';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Garota.otf') format('opentype');
+}
+@font-face {
+    font-family: 'milk';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/milk.otf') format('opentype');
+}
+@font-face {
+    font-family: 'posi';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/posi.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Aztec';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Aztec.otf') format('opentype');
+}
+@font-face {
+    font-family: 'CherieBomb';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/CherieBomb.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Blackiron';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Blackiron.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Retrotype';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Retrotype.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SCP-Medium';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/SCP-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SCP-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/SCP-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Onest';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Onest.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SpyDolls';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/SpyDolls.otf') format('opentype');
+}
+@font-face {
+    font-family: 'RussianDollmaker';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/RussianDollmaker.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SymbolFont';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/SymbolFont.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Vogue';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Vogue.otf') format('opentype');
+}
+@font-face {
+    font-family: 'VoodoDolls';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/VoodoDolls.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Aileron.otf') format('opentype');
+}
+@font-face {
+    font-family: 'RobotoFlex';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/RobotoFlex.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Apercu';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Apercu.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Osaka';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Osaka.otf') format('opentype');
+}
+@font-face {
+    font-family: 'CourierNew';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/CourierNew.otf') format('opentype');
+}
+@font-face {
+    font-family: 'DotMatrix';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/DotMatrix.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Raleway.otf') format('opentype');
+}
+@font-face {
+    font-family: 'CircularMedium';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/CircularMedium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Triest';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Triest.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Drip';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Drip.otf') format('opentype');
+}
+@font-face {
+    font-family: 'CormorantItalic';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/CormorantItalic.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Couture';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Couture.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Cyberpunk';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Cyberpunk.otf') format('opentype');
+}
+@font-face {
+    font-family: 'FiraCode-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/FiraCode-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'FreshLychee';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/FreshLychee.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Garamond';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Garamond.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GaramondItalic';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/GaramondItalic.otf') format('opentype');
+}
+@font-face {
+    font-family: 'MC';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/MC.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Merriweather-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Merriweather-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'MMD';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/MMD.otf') format('opentype');
+}
+@font-face {
+    font-family: 'OrangeSlice';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/OrangeSlice.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Ostrich';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Ostrich.otf') format('opentype');
+}
+@font-face {
+    font-family: 'OstrichThin';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/OstrichThin.otf') format('opentype');
+}
+@font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/PlayfairDisplay-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'PSB';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/PSB.otf') format('opentype');
+}
+@font-face {
+    font-family: 'VT323';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/VT323.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Lobster';
+    src: url('https://cdn.alyxshang.boo/fonts/otf/Lobster.otf') format('opentype');
+}
+/* OTF FONTS END */
+
+/* TTF FONTS START */
+@font-face {
+    font-family: 'Italiana';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Italiana.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'FluroBold';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/FluroBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Mogena';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Mogena.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GICN';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/GICN.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'NeueMontrealBold';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/NeueMontrealBold.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'NeueMontrealLight';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/NeueMontrealLight.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'NeueMontrealMedium';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/NeueMontrealMedium.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Edda';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Edda.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'KingthingsExeter';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/KingthingsExeter.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Pragmatica';
+	src: url('https://cdn.alyxshang.boo/fonts/ttf/Pragmatica.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/BebasNeue.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'atriskyouth';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/atriskyouth.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'benegraphic';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/benegraphic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'easy';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/easy.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Garota';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Garota.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'milk';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/milk.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'posi';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/posi.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SCP-Medium';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/SCP-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Retrotype';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Retrotype.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Blackiron';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Blackiron.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SCP-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/SCP-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Onest';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Onest.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Aztec';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Aztec.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CherieBomb';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/CherieBomb.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SpyDolls';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/SpyDolls.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RussianDollmaker';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/RussianDollmaker.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SymbolFont';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/SymbolFont.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Vogue';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Vogue.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'VoodoDolls';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/VoodoDolls.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Aileron.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoFlex';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/RobotoFlex.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apercu';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Apercu.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Osaka';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Osaka.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CourierNew';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/CourierNew.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Triest';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Triest.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Drip';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Drip.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CormorantItalic';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/CormorantItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'DotMatrix';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/DotMatrix.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Raleway.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CircularMedium';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/CircularMedium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Couture';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Couture.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Cyberpunk';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Cyberpunk.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'FiraCode-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/FiraCode-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'FreshLychee';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/FreshLychee.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Garamond';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Garamond.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GaramondItalic';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/GaramondItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MC';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/MC.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Merriweather-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Merriweather-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MMD';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/MMD.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OrangeSlice';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/OrangeSlice.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Ostrich';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Ostrich.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OstrichThin';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/OstrichThin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PSB';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/PSB.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'VT323';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/VT323.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lobster';
+    src: url('https://cdn.alyxshang.boo/fonts/ttf/Lobster.ttf') format('truetype');
+}
+/* TTF FONTS END */
+
+/* WOFF FONTS START */
+@font-face {
+    font-family: 'Italiana';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Italiana.woff') format('woff');
+}
+@font-face {
+    font-family: 'FluroBold';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/FluroBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Mogena';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Mogena.woff') format('woff');
+}
+@font-face {
+    font-family: 'GICN';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/GICN.woff') format('woff');
+}
+@font-face{
+    font-family: 'NeueMontrealBold';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/NeueMontrealBold.woff') format('woff');
+}
+@font-face{
+    font-family: 'NeueMontrealLight';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/NeueMontrealLight.woff') format('woff');
+}
+@font-face{
+    font-family: 'NeueMontrealMedium';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/NeueMontrealMedium.woff') format('woff');
+}
+@font-face{
+    font-family: 'Edda';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Edda.woff') format('woff');
+}
+@font-face {
+    font-family: 'KingthingsExeter';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/KingthingsExeter.woff') format('woff');
+}
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Pragmatica.woff') format('woff');
+}
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/BebasNeue.woff') format('woff');
+}
+@font-face {
+    font-family: 'atriskyouth';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/atriskyouth.woff') format('woff');
+}
+@font-face {
+    font-family: 'benegraphic';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/benegraphic.woff') format('woff');
+}
+@font-face {
+    font-family: 'easy';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/easy.woff') format('woff');
+}
+@font-face {
+    font-family: 'Garota';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Garota.woff') format('woff');
+}
+@font-face {
+    font-family: 'milk';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/milk.woff') format('woff');
+}
+@font-face {
+    font-family: 'posi';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/posi.woff') format('woff');
+}
+@font-face {
+    font-family: 'SCP-Medium';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/SCP-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Retrotype';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Retrotype.woff') format('woff');
+}
+@font-face {
+    font-family: 'Blackiron';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Blackiron.woff') format('woff');
+}
+@font-face {
+    font-family: 'SCP-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/SCP-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Onest';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Onest.woff') format('woff');
+}
+@font-face {
+    font-family: 'Aztec';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Aztec.woff') format('woff');
+}
+@font-face {
+    font-family: 'CherieBomb';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/CherieBomb.woff') format('woff');
+}
+@font-face {
+    font-family: 'SpyDolls';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/SpyDolls.woff') format('woff');
+}
+@font-face {
+    font-family: 'RussianDollmaker';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/RussianDollmaker.woff') format('woff');
+}
+@font-face {
+    font-family: 'SymbolFont';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/SymbolFont.woff') format('woff');
+}
+@font-face {
+    font-family: 'Vogue';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Vogue.woff') format('woff');
+}
+@font-face {
+    font-family: 'VoodoDolls';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/VoodoDolls.woff') format('woff');
+}
+@font-face {
+    font-family: 'Triest';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Triest.woff') format('woff');
+}
+@font-face {
+    font-family: 'Drip';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Drip.woff') format('woff');
+}
+@font-face {
+    font-family: 'CormorantItalic';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/CormorantItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Aileron.woff') format('woff');
+}
+@font-face {
+    font-family: 'RobotoFlex';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/RobotoFlex.woff') format('woff');
+}
+@font-face {
+    font-family: 'Apercu';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Apercu.woff') format('woff');
+}
+@font-face {
+    font-family: 'Osaka';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Osaka.woff') format('woff');
+}
+@font-face {
+    font-family: 'CourierNew';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/CourierNew.woff') format('woff');
+}
+@font-face {
+    font-family: 'DotMatrix';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/DotMatrix.woff') format('woff');
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Raleway.woff') format('woff');
+}
+@font-face {
+    font-family: 'CircularMedium';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/CircularMedium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Couture';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Couture.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cyberpunk';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Cyberpunk.woff') format('woff');
+}
+@font-face {
+    font-family: 'FiraCode-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/FiraCode-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'FreshLychee';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/FreshLychee.woff') format('woff');
+}
+@font-face {
+    font-family: 'Garamond';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Garamond.woff') format('woff');
+}
+@font-face {
+    font-family: 'GaramondItalic';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/GaramondItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'MC';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/MC.woff') format('woff');
+}
+@font-face {
+    font-family: 'Merriweather-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Merriweather-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'MMD';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/MMD.woff') format('woff');
+}
+@font-face {
+    font-family: 'OrangeSlice';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/OrangeSlice.woff') format('woff');
+}
+@font-face {
+    font-family: 'Ostrich';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Ostrich.woff') format('woff');
+}
+@font-face {
+    font-family: 'OstrichThin';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/OstrichThin.woff') format('woff');
+}
+@font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/PlayfairDisplay-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'PSB';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/PSB.woff') format('woff');
+}
+@font-face {
+    font-family: 'VT323';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/VT323.woff') format('woff');
+}
+@font-face {
+    font-family: 'Lobster';
+    src: url('https://cdn.alyxshang.boo/fonts/woff/Lobster.woff') format('woff');
+}
+/* WOFF FONTS END */
+
+/* WOFF2 FONTS START */
+@font-face {
+    font-family: 'Italiana';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Italiana.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'FluroBold';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/FluroBold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Mogena';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Mogena.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'GICN';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/GICN.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'NeueMontrealBold';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/NeueMontrealBold.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'NeueMontrealLight';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/NeueMontrealLight.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'NeueMontrealMedium';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/NeueMontrealMedium.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'Edda';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Edda.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'KingthingsExeter';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/KingthingsExeter.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Pragmatica.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/BebasNeue.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'atriskyouth';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/atriskyouth.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'benegraphic';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/benegraphic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'easy';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/easy.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Garota';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Garota.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'milk';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/milk.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'posi';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/posi.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'SCP-Medium';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/SCP-Medium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Retrotype';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Retrotype.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Blackiron';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Blackiron.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'SCP-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/SCP-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Onest';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Onest.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Aztec';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Aztec.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'CherieBomb';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/CherieBomb.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'SpyDolls';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/SpyDolls.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'RussianDollmaker';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/RussianDollmaker.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'SymbolFont';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/SymbolFont.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Vogue';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Vogue.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'VoodoDolls';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/VoodoDolls.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Aileron.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'CourierNew';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/CourierNew.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'DotMatrix';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/DotMatrix.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Raleway.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'CircularMedium';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/CircularMedium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Couture';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Couture.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Cyberpunk';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Cyberpunk.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'FiraCode-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/FiraCode-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'FreshLychee';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/FreshLychee.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Garamond';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Garamond.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'GaramondItalic';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/GaramondItalic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'MC';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/MC.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Merriweather-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Merriweather-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'MMD';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/MMD.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'OrangeSlice';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/OrangeSlice.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Ostrich';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Ostrich.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'OstrichThin';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/OstrichThin.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/PlayfairDisplay-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'PSB';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/PSB.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'VT323';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/VT323.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Triest';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Triest.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Drip';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Drip.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'CormorantItalic';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/CormorantItalic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'RobotoFlex';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/RobotoFlex.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Apercu';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Apercu.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Osaka';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Osaka.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Lobster';
+    src: url('https://cdn.alyxshang.boo/fonts/woff2/Lobster.woff2') format('woff2');
+}
+/* WOFF2 FONTS END */
