@@ -2,14 +2,15 @@
 # Licensed under the FSL v1.
 
 buildCDN(){
-	mkdir cdn
-	mv css cdn
-	mv fonts cdn
-	mv images cdn
+  mkdir cdn
+  mv css cdn
+  mv fonts cdn
+  mv images cdn
+  mv CNAME cdn
 }
 
 main(){
-	buildCDN
+  buildCDN
 }
 
 main
