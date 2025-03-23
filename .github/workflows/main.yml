@@ -3,23 +3,23 @@ on:
   push:
     branches: [ main ]
 env:
-  SERVER_IP: ${{ secrets.SERVER_IP }}
-  USERNAME: ${{ secrets.SERVER_USER }}
-  PWD: ${{ secrets.SERVER_PWD }}
-  TARGET_DIR: ${{ secrets.TARGET_DIR }}
+  MANDY_ENV: "production"
+  MANDY_URL: "https://github.com/alyxshang/mandy/releases/download/v.0.1.0/mandy-linux-v.0.1.0"
 jobs:
-  build:
+  build_and_test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
-      - name: "Install SSHPass."
-        run: sudo apt update && sudo apt install sshpass -y
 
-      - name: "Upload to server."
+      - name: "Build the CDN."
         run: |
-          sshpass -p ${{ env.PWD }} ssh -o "StrictHostKeyChecking=no" ${{ env.USERNAME }}@${{ env.SERVER_IP }} "cd ${{ env.TARGET_DIR }};rm -rf *;"
-          sshpass -p ${{ env.PWD }} ssh -o "StrictHostKeyChecking=no" ${{ env.USERNAME }}@${{ env.SERVER_IP }} "cd ${{ env.TARGET_DIR }};git clone https://github.com/alyxshang/spark-cdn"
-          sshpass -p ${{ env.PWD }} ssh -o "StrictHostKeyChecking=no" ${{ env.USERNAME }}@${{ env.SERVER_IP }} "cd ${{ env.TARGET_DIR }};cd spark-cdn;bash build.sh"
-          sshpass -p ${{ env.PWD }} ssh -o "StrictHostKeyChecking=no" ${{ env.USERNAME }}@${{ env.SERVER_IP }} "cd ${{ env.TARGET_DIR }};mv spark-cdn/cdn/* .;rm -rf spark-cdn"
-          sshpass -p ${{ env.PWD }} ssh -o "StrictHostKeyChecking=no" ${{ env.USERNAME }}@${{ env.SERVER_IP }} "cd ${{ env.TARGET_DIR }};tree"
+          bash build.sh
+
+      - name: "Verify the build."
+        run: tree
+
+      - name: "Deploy the built site."
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          folder: cdn
